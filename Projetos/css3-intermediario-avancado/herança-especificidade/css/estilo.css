@@ -1,0 +1,48 @@
+/* Herança e especificidade */
+
+
+/*
+-HERANÇA-
+
+* {
+    border: 1px solid blue; pega em todos os elementos
+}
+
+body {
+    color: red;
+    border: 1px solid blue; não é heradado
+    background: gray;  não é heradado
+} */
+
+/* 
+-ESPECIFICIDADE- 
+
+#pagina p {
+    color: blue;
+}
+
+p {
+    color: red !important; da prioridade
+}
+*/
+
+/* se um seletor for mais especifico que outro a regra
+mais epecifica sera aplicda 
+(tera precedencia sobre regras mais gerais)*/
+
+* {
+    color: red;
+}
+
+h2 { /*3*/
+    color: blue
+}
+
+h2.verde { /*2*/
+    color: green;
+}
+
+
+h2#amarelo { /*1*/
+    color: yellow;
+}

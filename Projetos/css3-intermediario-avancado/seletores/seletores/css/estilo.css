@@ -1,0 +1,54 @@
+/*
+/* SELETOR UNIVERSAL
+
+* {
+    border : 1px solid red
+}
+
+/*SELETOR DE TEXTO
+
+h1 {
+    color: green;
+}
+
+/*SELETOR DE CLASSE
+*/
+
+p.verde{
+    color: green;
+}
+
+/*SELETOR DE iID
+
+
+#cabecalho {
+    border: 1px solid blue;
+}
+*/
+
+/*SELETOR DE FILHO
+*/
+
+li>a {
+    color: red;
+    text-decoration: none;
+}
+
+/*SELETOR DE DESCENDENTE
+*/
+
+p a {
+    color: blue;
+}
+
+/*SELETOR DE IRMÃO ADJASCENTE */
+
+h1 + p { /* Seleciona apenas o primeiro elemento P depois de h1, se tiver outro elemente após o h1 não funciona*/
+    color: aqua;
+}
+
+/* SELETOR DE IRMÃO GERAL (NÃO NECESSITA SER EXATAMENTO O PRÓXIMO*/
+
+h1~p {
+    color:blueviolet;
+}

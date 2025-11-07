@@ -1,0 +1,34 @@
+.conteudo {
+    background: blue;
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin: 10px;
+}
+
+.conteudo1 {
+    background: rgb(255, 4, 4);
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+}
+
+.conteudo2 {
+    background: rgb(255, 4, 4);
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+#principal {
+    border: 1px solid red;
+    background: green;
+}
