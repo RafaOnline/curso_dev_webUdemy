@@ -1,21 +1,30 @@
-# Repositório de Estudos - Curso de Desenvolvimento Web
+# Desenvolvimento Web: HTML, CSS e JavaScript
 
-Este repositório é uma coleção organizada de arquivos e projetos desenvolvidos durante um curso de desenvolvimento web, focado em **HTML** e **CSS**. O objetivo é servir como um material de referência e portfólio, com a documentação em Markdown explicando cada conceito e projeto.
+Exercícios e projetos práticos criados durante os estudos de desenvolvimento web. A coleção vai dos fundamentos de HTML e CSS a páginas e layouts completos, com uma seção introdutória de JavaScript.
 
-## Estrutura do Repositório
+## Explore o repositório
 
-O conteúdo está organizado nas seguintes pastas principais:
+| Seção | Conteúdo |
+| --- | --- |
+| [`HTML/`](./HTML/README.md) | Estrutura de páginas, formulários, tabelas, links e imagens |
+| [`CSS_/`](./CSS_/README.md) | Seletores, cores, fontes, bordas, fundos e layouts |
+| [`Projetos/`](./Projetos/README.md) | Sites e exercícios que combinam HTML e CSS |
+| [`JAVASCRIPT/`](./JAVASCRIPT/) | Práticas iniciais de programação no navegador |
 
-| Pasta | Conteúdo | Descrição |
-| :--- | :--- | :--- |
-| **HTML/** | Arquivos `.html` | Exemplos focados em conceitos básicos de estruturação HTML (tabelas, formulários, links, imagens). |
-| **CSS/** | Arquivos `.html` e `.css` | Exemplos focados em conceitos básicos de estilização CSS (seletores, cores, fundos, bordas). |
-| **Projetos/** | Pastas de projetos | Projetos práticos mais complexos que combinam HTML e CSS para criar layouts e sites completos. |
-| **Docs/** | Arquivos `.md` | Documentação adicional, se necessário (atualmente, os READMEs das subpastas já servem como documentação). |
+### Projetos em destaque
 
-## Como Navegar
+- **Ana Bella** — site multipágina de apresentação.
+- **TecBlog** — exercício de layout para um blog.
+- **Portal de notícias** — páginas organizadas em seções.
+- **Chalé Hotel** — site de apresentação de hospedagem.
+- **Layouts CSS3** — navegação, formulários, tabelas e diferentes composições de página.
 
-1.  **Conceitos Fundamentais:** Comece pelas pastas **HTML/** e **CSS/** para revisar os fundamentos. Cada pasta possui um arquivo `README.md` que lista e descreve os arquivos de exemplo.
-2.  **Projetos Práticos:** Explore a pasta **Projetos/** para ver a aplicação dos conceitos em sites completos. O `README.md` desta pasta fornece um resumo de cada projeto.
+Veja a [lista de projetos](./Projetos/README.md) para conhecer os exemplos disponíveis.
 
-Este repositório é ideal para quem está aprendendo ou deseja revisar os fundamentos do desenvolvimento web front-end.
+## Como visualizar
+
+Não é necessário instalar dependências: abra o arquivo `index.html` do exemplo escolhido em um navegador. Cada seção também possui um README com um guia do seu conteúdo.
+
+---
+
+Repositório de estudos e referência para práticas de front-end.
